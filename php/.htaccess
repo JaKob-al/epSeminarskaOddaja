@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule "index.php/zavarovano" "https://%{HTTP_HOST}%{REQUEST_URI}"
